@@ -24,7 +24,7 @@ button2 = tk.Button(window,text = "Eat Bananas")# miss the parethesis
 button2.grid(column = 1, row = 1)
 
 
-#window.bind("<Button-1>",doorbell)#bind the mouse to function -1/ bind the lelf click to hold window 
+#window.bind("<Button-1>",doorbell)#bind the mouse to function -1/ bind the lelf click to whole window 
 button1.bind("<Button-2>",doorbell)#only bind the button to button1
 window.mainloop()
 
